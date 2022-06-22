@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+#app-calendar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 7px;
+    /* max-width: 130px; */
+    min-height: 120px;
+    padding: 10px;
+    font-size: 20px;
+}
+.selected{
+    background-color: #B3B0FF;
+    /* border-color: green; */
+    /* transition: .5s; */
+}
+/* .selected:hover{
+    background-color: transparent;
+    border-color: black;
+} */
