@@ -31,3 +31,31 @@
     background-color: transparent;
     border-color: black;
 } */
+#main-comentario{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#comment{
+    display: flex;
+    width: 300px;
+    background-color: rgb(227, 227, 231);
+    background-color: rgba(227, 227, 231, 0.8);
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+}
+#comment input{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
