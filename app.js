@@ -15,6 +15,7 @@ for(i=0; i<31; i++){
 }
 
 let day = document.querySelectorAll(".day");
+
 day.forEach(days => {
     days.addEventListener('click', evento => {
         console.log(evento.currentTarget.classList.toggle("selected"));
